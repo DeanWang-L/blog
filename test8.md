@@ -24,6 +24,7 @@
 ### 2.什么是 CSS 继承? 哪些属性能继承，哪些不能？
 
 **css继承**：父元素设置的一些css样式会继承到其子元素及其后代上。
+
 **能继承的元素**：
 所有元素可继承：visibility、cursor
 内联元素可继承：letter-spacing、word-spacing、white-space、line-height、color、font、 font-family、font-size、font-style、font-variant、font-weight、text- decoration、text-transform、direction
@@ -33,13 +34,12 @@
 
 **不能继承的元素**：
 
-```
 display、margin、border、padding、background、height、min-height、max- height、width、min-width、max-width、overflow、position、left、right、top、 bottom、z-index、float、clear、table-layout、vertical-align、page-break-after、 page-bread-before、unicode-bidi
-```
 
 ### 3.如何让块级元素水平居中？如何让行内元素水平居中?
 
 **块级元素**`margin: 0, auto;`块级元素可以通过设置外边距属性居中
+
 **行内元素**`text-align: center;`通过属性设置居中
 
 ### 4.用 CSS 实现一个三角形
@@ -79,7 +79,9 @@ body{
   }
 ```
 设置`<body>`标签的字体属性，大小12px，行间距1.5，按照`tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif`的顺序依次测试能否加载字体到浏览器。
+
 加引号的原因是 “`Hiragino Sans GB`” 中有空格如果不加引号浏览器会将其视为三种字体。
+
 `\5b8b\4f53`：是“宋体”这两个字的unicode码，防止用户电脑不识别汉字名的字体。
 
 ## 代码
